@@ -13,6 +13,16 @@
 
 Customer-focused Service Delivery Manager with over 4 years of experience in the edtech and **cloud industries**, including 3 years in technical support (L1 and L2) and 1+ year in service delivery. Promoted to SDM for strong performance and proven ability to drive client satisfaction. Skilled in managing SaaS client relationships, leading strategic communications, and delivering actionable insights through platform usage reporting. Adept at translating business needs into technical solutions, fostering platform adoption, and collaborating cross-functionally to ensure long-term customer success. 
 
+
+
+### :zap: Recent activity
+<!--START_SECTION:activity-->
+
+
+<!--END_SECTION:activity-->
+
+
+
 ---
 ### :cloud: **Cloud Technologies**
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
