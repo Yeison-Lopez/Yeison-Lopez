@@ -2,19 +2,18 @@ name: Update README2
 
 on:
   schedule:
-    - cron: "0 */12 * * *"   # Every 12 hours (recommended format)
+    - cron: "*/30 * * * *"
   workflow_dispatch:
 
 jobs:
-  update-readme:
+  update:
     runs-on: ubuntu-latest
-    name: Update Profile README
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4.2.2
+      - uses: actions/checkout@v3
 
-      - name: Run recent activity
-        uses: Readme-Workflows/recent-activity@v2.4.1
-        env:
+      - name: Recent Activity
+        uses: Josee9988/recent-activity@v2.7.0
+        with:
+          COMMIT_EMAIL: "41898282+github-actions[bot]@users.noreply.github.com"
+          COMMIT_NAME: "readme-bot"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
