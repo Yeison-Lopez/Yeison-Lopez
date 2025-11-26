@@ -10,5 +10,5 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-      - name: Update README with recent activity
+      - name: Update README2 with recent activity
         uses: Yeison-lopez/Yeison-Lopez@main
