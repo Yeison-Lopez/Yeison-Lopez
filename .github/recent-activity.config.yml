@@ -1,0 +1,4 @@
+max_lines: 5
+commit_name: "readme-bot"
+commit_email: "41898282+github-actions[bot]@users.noreply.github.com"
+telemetry: false
