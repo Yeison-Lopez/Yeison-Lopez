@@ -2,13 +2,18 @@ name: Update README2
 
 on:
   schedule:
-    - cron: '0 */12 * * *' # Cada 12 horas
+    - cron: "0 */12 * * *"  # Cada 12 horas
+  workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
-      - name: Update README2 with recent activity
-        uses: Yeison-lopez/Yeison-Lopez@main
+        uses: actions/checkout@v4
+
+      - name: Update README with recent activity
+        uses: JamesIves/github-activity-readme@v2.3.1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
