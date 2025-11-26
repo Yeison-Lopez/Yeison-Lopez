@@ -15,9 +15,9 @@ Customer-focused Service Delivery Manager with over 4 years of experience in the
 
 
 
-### :zap: Recent activity
-<!--RECENT_ACTIVITY:start-->
-<!--RECENT_ACTIVITY:last_update-->
+### 🔥 My Recent GitHub Activity
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
 
 
 
